@@ -122,7 +122,7 @@ services:
       HTTP_API_PORT: '{http_api_port}'
       P2P_ENABLE_IPV4: 'true'
       P2P_ENABLE_IPV6: 'true'
-      P2P_ipV4BindAddress: '0.0.0.0'
+      P2P_ipV4BindAddress: 0.0.0.0
       P2P_ipV4BindTcpPort: '{p2p_tcp_port}'
       P2P_ipV4BindWsPort: '{p2p_ws_port}'
       P2P_ipV6BindAddress: '::1'
